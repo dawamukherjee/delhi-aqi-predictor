@@ -1,2 +1,4 @@
 # delhi-aqi-predictor
 Our tool helps a Delhi family decide when to run their air purifier by forecasting the next hours of PM2.5, saving energy without missing the bad-air hours.
+
+Delhi Air Guard: forecasting PM2.5 to run air purifiers smarter. Delhi’s air quality swings hour by hour, and many families leave air purifiers running all day, wasting electricity when the air is already clean. We built a machine learning model that uses recent PM2.5 and weather readings near Jawaharlal Nehru Stadium to forecast air quality for the coming hours. A simple controller then recommends when a household should turn its purifier on or off. We compare our forecast with the “next hour equals this hour” baseline on data the model never saw, and we measure the decisions it leads to: bad-air hours caught, unnecessary running hours avoided, and estimated energy saved. This project is a prototype and is not medical advice.
